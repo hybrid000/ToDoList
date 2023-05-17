@@ -1,0 +1,113 @@
+ html {
+   background-color: #E4E9FD;
+   /* background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%); */
+   min-height: 1000px;
+   font-family: 'helvetica neue';
+ }
+
+ h1 {
+   color: #fff;
+   padding: 10px;
+ }
+ .box1 {
+   width: 400px;
+   margin: auto;
+   background: white;
+   border-radius: 5px;
+   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+ }
+ .box2 {
+
+  display: flex;
+    flex-direction: column;
+   width: 400px;
+   margin: 50px auto;
+   background: white;
+   border-radius: 5px;
+   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+ }
+
+ #heading {
+   background-color: #A683E3;
+   text-align: center;
+ }
+
+ .delform {
+  
+   display: flex;
+   align-items: center;
+   margin: 10px 10px 0 10px;
+   padding:10px 10px 0 10px;
+
+   justify-content: space-between;
+
+ }
+ 
+
+ .delbtn {
+   position: relative;
+   right: 0px;
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   font-size: 20px;
+   border-width: 0;
+   cursor: pointer;
+ }
+
+ p {
+   margin: 0;
+   font-size: 20px;
+   font-weight: 200;
+   color: #00204a;
+ }
+
+ .inputform {
+   display: flex;
+   align-items: center;
+   margin: 10px;
+      padding: 10px;
+   justify-content: space-between;
+ }
+
+ #addbtn {
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   border:none;
+   background-color: #A683E3;
+   color: #fff;
+   font-size: 30px;
+   cursor: pointer;
+ }
+
+ #addbtn:hover {
+   cursor: pointer;
+   background-color: #83e3ab;
+ }
+
+ input[type="text"] {
+   text-align: center;
+   height: 50px;
+   border: none;
+   background: transparent;
+   font-size: 18px;
+   font-weight: 200;
+   width: 280px;
+ }
+
+ input[type="text"]:focus {
+   outline: none;
+   box-shadow: inset 0 -3px 0 0 #A683E3;
+ }
+
+ ::placeholder {
+   color: grey;
+   opacity: 1;
+ }
+
+ footer {
+   color: white;
+   color: rgba(0, 0, 0, 0.5);
+   text-align: center;
+ } 

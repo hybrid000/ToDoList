@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/27c4e72872.js" crossorigin="anonymous"></script>
+    <title>To Do List</title>
+    <link rel="stylesheet" href="/css/styles.css">
+
+    
+</head>
+
+<body>
+
+    <div class="box1" id="heading">
+        <h1>
+            <%= listTitle %>
+        </h1>
+
+    </div>
+
+    <div class="box2">
+        <%newItems.forEach((elements)=>{%>
+
+            <form action="/delete" method="post" class="delform">
+
+                <p class="input_space">
+                    <%= elements.itemname %>
+
+                </p>
+                <button type="submit" class="delbtn" name="deletebtn" value="<%= elements._id %>|<%= listTitle %>">
+                    <i class="fa-regular fa-trash-can fa-shake" style="color: #e13f09;">
+                    </i></button>
+
+            </form>
+
+
+            <% });%>
+            <form class="inputform" action="/" method="post">
+
+                    <input type="text" name="newItems" placeholder="New item..... ">
+
+                    <button id="addbtn" type="submit" name="addbtn" value="<%=listTitle %>">+</button>
+
+            </form>
+    </div>
+
+</body>
+
+</html>
