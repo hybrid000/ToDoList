@@ -4,18 +4,18 @@ The ToDo List web application is a simple tool that allows users to manage their
 
 ## Features
 
-**General To-Do List:** Users can manage tasks in a general to-do list. It allows adding, viewing, and deleting tasks that are not associated with any specific custom list.
+**1. General To-Do List:** Users can manage tasks in a general to-do list. It allows adding, viewing, and deleting tasks that are not associated with any specific custom list.
 
-**Custom Lists:** Users can create personalized lists with unique URLs. Each custom list functions independently, enabling users to add, view, and delete tasks specific to that list.
+**2. Custom Lists:** Users can create personalized lists with unique URLs. Each custom list functions independently, enabling users to add, view, and delete tasks specific to that list.
 
-**Add Tasks:** Users can easily add new tasks to either the general list or a custom list. The user interface prevents adding empty tasks to maintain task clarity.
+**3. Add Tasks:** Users can easily add new tasks to either the general list or a custom list. The user interface prevents adding empty tasks to maintain task clarity.
 
-**View Tasks:** Tasks from both the general list and custom lists are displayed in an organized and accessible manner on the user interface.
+**4. View Tasks:** Tasks from both the general list and custom lists are displayed in an organized and accessible manner on the user interface.
 
-**Delete Tasks:** Users have the option to delete tasks from both the general list and custom lists. This feature helps in keeping the lists up to date by removing completed or unnecessary tasks.
+**5. Delete Tasks:** Users have the option to delete tasks from both the general list and custom lists. This feature helps in keeping the lists up to date by removing completed or unnecessary tasks.
 
-## !!
-This todo list has a limitation: it doesn't have user sign-up, sign-in, or log-out functionality. Currently, anyone can access the list and modify its content, offering no privacy or control. However, it does offer the ability to create a custom list with a unique URL path name known only to you, giving you a sort of private list option.
+# !!
+***This todo list has a limitation: it doesn't have user sign-up, sign-in, or log-out functionality. Currently, anyone can access the list and modify its content, offering no privacy or control. However, it does offer the ability to create a custom list with a unique URL path name known only to you, giving you a sort of private list option.
 
 ## Setup and Installation
 
