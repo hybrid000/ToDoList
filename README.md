@@ -15,7 +15,7 @@ The ToDo List web application is a simple tool that allows users to manage their
 **5. Delete Tasks:** Users have the option to delete tasks from both the general list and custom lists. This feature helps in keeping the lists up to date by removing completed or unnecessary tasks.
 
 # !!
-***This todo list has a limitation: it doesn't have user sign-up, sign-in, or log-out functionality. Currently, anyone can access the list and modify its content, offering no privacy or control. However, it does offer the ability to create a custom list with a unique URL path name known only to you, giving you a sort of private list option.
+***This todo list has a limitation: it doesn't have user sign-up, sign-in, or log-out functionality. Currently, anyone can access the list and modify its content, offering no privacy or control. However, it does offer the ability to create a custom list with a unique URL path name known only to you, giving you a sort of private list option.***
 
 ## Setup and Installation
 
